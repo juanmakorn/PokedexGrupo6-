@@ -54,7 +54,7 @@
     <main class="container">
         <h1 class="text-center display-2 border">Contacto</h1>
         <hr>
-        <form>
+        <form action="error404.html">
           <div class="mb-3">
             <label for="nombreYapellido" class="form-label">Nombre y apellido</label>
             <input type="text" id="nombreYapellido" minlength="3" maxlength="20" class="form-control" required>
@@ -67,7 +67,7 @@
             <label for="consultas" class="form-label">Consulta</label>
           <textarea id="consultas" cols="30" rows="5" placeholder="deja tu consulta" required minlength="10" maxlength="200" class="form-control"></textarea>
           </div>
-          <button>Enviar</button>
+          <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
       </main>
 <footer class="bg-dark text-secondary py-4">
