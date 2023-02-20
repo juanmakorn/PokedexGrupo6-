@@ -1,19 +1,24 @@
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 .iniciales{
     margin-right: 450px;
 }
-@media all and (max-width: 767px){
-    .banner-responsive{
+@media all and (max-width: 767px)
+ .banner-responsive {
         height: 250px;
         object-fit: cover;
         object-position:25%;
-    }
+      }
+.imgQuienesSomos {
+  width: 730px;
+  height: 500px;
+  margin: 0px 8px 0px 8px;
 }
+
