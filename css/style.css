@@ -10,7 +10,7 @@ main {
 .iniciales{
     margin-right: 450px;
 }
-@media all and (max-width: 767px)
+@media all and (max-width: 767px) {
  .banner-responsive {
         height: 250px;
         object-fit: cover;
@@ -20,5 +20,6 @@ main {
   width: 730px;
   height: 500px;
   margin: 0px 8px 0px 8px;
+}
 }
 
