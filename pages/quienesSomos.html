@@ -1,229 +1,101 @@
 <!DOCTYPE html>
 <html lang="es" data-bs-theme="dark">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pagina de Quienes Somos" />
-    <meta
-      name="keywords"
-      content="Quienes Somos,grupo, presentacion"
-    />
-    <meta name="author" content="Grupo 6" />
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
-    />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-    crossorigin="anonymous"
-    />
-    <title>Pokedex Trabajo Grupal</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title> Pokedex Trabajo Grupal</title>
+</head>
+
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="../img/pokeball-logo-DC23868CA1-seeklogo.com.png"
-              alt="logo pokeball"
-              width="90px"
-            />
-          </a>
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="../img/logo fondo transparente.png"
-              alt="logo pokemon"
-              width="90px"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/quienesSomos.html"
-                  >Quienes Somos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/pokedek.html">Pokedex</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link iniciales" href="../pages/contacto.html"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar pokemon"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Buscar
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="../img/pokeball-logo-DC23868CA1-seeklogo.com.png" alt="logo pokeball" width="90px" />
+                 </a>
+                <a class="navbar-brand"  href="/index.html">
+                    <img src="../img/logo fondo transparente.png" alt="logo pokemon" width="90px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/quienesSomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/pokedek.html">Pokedex</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link iniciales" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar pokemon" aria-label="Search">
+                        <button class="form-control  btn btn-dark" type="submit">Buscar</button>
+                        </form>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
-        <section class="text-white text-center container">
-          <article class="my-5">
-            <h2>¿Quienes somos?</h2>
-          </article>
-          <article
-            class="d-flex flex-column flex-lg-row justify-content-center align-items-center"
-          >
-            <img
-              src="../img/equipo-pokemón.jpg"
-              alt="equipo de trabajo"
-              class="imgQuienesSomos img-fluid rounded-pill"
-            />
-            <p class="fs-3 text-secondary mx-4">
-              Somo un grupo de desarrolladores en fullstack, que tiene un gran
-              fanatismo al mundo de Pokemón.
-            </p>
-          </article>
-          <article class="my-5">
-            <h2>¿Que hacemos?</h2>
-          </article>
-          <article
-            class="d-flex flex-lg-row-reverse flex-column justify-content-center align-items-center"
-          >
-            <img
-              src="../img/pokemones.jpeg"
-              alt="pokemones"
-              class="imgQuienesSomos img-fluid rounded-pill"
-            />
-            <p class="fs-3 text-secondary mx-4">
-              Hicimos esta pagina para que puedas econtrar pokemones de todas las
-              generaciones, ver todas sus evoluciones y el tipo.
-            </p>
-          </article>
+        <section class="text-center">
+            <img src="../img/2f55441126e3c8d643c4c2d4e852cb4c.png" alt="error404">
         </section>
-        <section class="mb-5">
-          <article>
-            <h2 class="text-white text-center my-5">Desarrolladores</h2>
-          </article>
-          <article class="row row-cols-lg-4 row-cols-md-2 row-cols-1 g-4">
-            <aside class="text-white col px-4 px-lg-3">
-              <div class="text-center">
-                <img
-                  src="../img/avatar.webp"
-                  class="card-img-top w-50"
-                  alt="avatar de ash para desarrolladores"
-                />
-              </div>
-              <h6 class="card-title text-center">Choque, Leonel Ezequiel.</h6>
-              <p class="card-text text-center">
-                Realización de la página ¿Quienes somos?.
-              </p>
-            </aside>
-            <aside class="text-white col px-4 px-lg-3">
-              <div class="text-center">
-                <img
-                  src="../img/avatar.webp"
-                  class="card-img-top w-50"
-                  alt="avatar de ash para desarrolladores"
-                />
-              </div>
-              <h6 class="card-title text-center">Gimenez, Juan Manuel.</h6>
-              <p class="card-text text-center">
-                Realización de la página index.
-              </p>
-            </aside>
-            <aside class="text-white col px-4 px-lg-3">
-              <div class="text-center">
-                <img
-                  src="../img/avatar.webp"
-                  class="card-img-top w-50"
-                  alt="avatar de ash para desarrolladores"
-                />
-              </div>
-              <h6 class="card-title text-center">Navarro, Tomas Benjamin.</h6>
-              <p class="card-text text-center">
-                Realización de Navbar, Footer y error 404.
-              </p>
-            </aside>
-            <aside class="text-white col px-4 px-lg-3">
-              <div class="text-center">
-                <img
-                  src="../img/avatar.webp"
-                  class="card-img-top w-50"
-                  alt="avatar de ash para desarrolladores"
-                />
-              </div>
-              <h6 class="card-title text-center">Triunfetti, Hugo Hernán.</h6>
-              <p class="card-text text-center">
-                Realización de páginas detalle Pokemón.
-              </p>
-            </aside>
-          </article>
-        </section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
     </main>
     <footer class="bg-dark text-secondary py-4">
-      <section class="container">
-        <div class="row">
-          <aside class="col-md-4 text-center">
-            <img
-              src="../img/pokeball-logo-DC23868CA1-seeklogo.com.png"
-              alt="logo pokeball"
-              width="90px"
-            />
-          </aside>
-          <aside class="col-md-4">
-            <h5>Trabajo github</h5>
-            <ul>
-              <li>Todos los derechos reservados.</li>
-              <li>Se da credito a los autores de la imagenes utilizadas.</li>
-            </ul>
-          </aside>
-          <aside class="col-md-4">
-            <h5>Seguinos en nuestras redes</h5>
-            <div class="text-center text-md-start">
-              <a href="./pages/error404.html" class="link-secondary"
-                ><i class="bi bi-facebook fs-4"></i
-              ></a>
-              <a href="./pages/error404.html" class="link-secondary">
-                <i class="bi bi-twitter fs-4 mx-2"></i
-              ></a>
-              <a href="./pages/error404.html" class="link-secondary"
-                ><i class="bi bi-instagram fs-4 me-2"></i
-              ></a>
-              <a href="./pages/error404.html" class="link-secondary">
-                <i class="bi bi-whatsapp fs-4"></i
-              ></a>
+        <section class="container">
+            <div class="row">
+                <aside class="col-md-4 text-center">
+                    <img src="../img/pokeball-logo-DC23868CA1-seeklogo.com.png" alt="logo pokeball" width="90px" />
+                </aside>
+                <aside class="col-md-4">
+                    <h5>Trabajo github</h5>
+                    <ul>
+                        <li>Todos los derechos reservados.</li>
+                        <li>Se da credito a los autores de la imagenes utilizadas.</li>
+                    </ul>
+                </aside>
+                <aside class="col-md-4">
+                    <h5>Seguinos en nuestras redes</h5>
+                    <div class="text-center text-md-start">
+                        <a href="error404.html" class="link-secondary"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="error404.html" class="link-secondary"> <i
+                                class="bi bi-twitter fs-4 mx-2"></i></a>
+                        <a href="error404.html" class="link-secondary"><i
+                                class="bi bi-instagram fs-4 me-2"></i></a>
+                        <a href="error404.html" class="link-secondary"> <i class="bi bi-whatsapp fs-4"></i></a>
+                    </div>
+                </aside>
             </div>
-          </aside>
-        </div>
-      </section>
+        </section>
     </footer>
     <script src="./js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>

@@ -7,22 +7,19 @@ body {
 main {
   flex-grow: 1;
 }
+.iniciales{
+    margin-right: 450px;
+}
+@media all and (max-width: 767px) {
+ .banner-responsive {
+        height: 250px;
+        object-fit: cover;
+        object-position:25%;
+      }
 .imgQuienesSomos {
   width: 730px;
   height: 500px;
   margin: 0px 8px 0px 8px;
 }
-@media all and (max-width: 767px) {
-  .banner-responsive {
-    height: 250px;
-    object-fit: cover;
-    object-position: 50%;
-  }
 }
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-    .imgQuienesSomos {
-        width: 530px;
-        height: 400px;
-        margin: 0px 8px 0px 8px;
-    }
-  }
+
